@@ -10,11 +10,11 @@
  */
 
 
-int red = 13;   // pin #s for LEDS, button, and active buzzer
-int yellow = 12;
-int green = 11;
-int button = 10;
-int buzzer = 9;
+int red = 22;   // pin #s for LEDS, button, and active buzzer
+int yellow = 23;
+int green = 24;
+int button = 25;
+int buzzer = 26;
 
 int flag = 0;  //flag variable to determine if the light should switch from blinking red to street light
 int i = 0; //loop variable
