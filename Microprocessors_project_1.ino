@@ -1,4 +1,13 @@
-
+/* Group:Ryan Rodriguez, Michael Bautista, Tenzin Lhundup
+ * EECE.4520 Project 1: Traffic Light Controller
+ * 
+ * This code creates a waiting loop where is blinks the red ligt on and off (1 second on, 1 second off)
+ * until the button is pressed. At that point it will finish the current pass in the waiting
+ * loop and then proceeed into the trafick light loop. Here is will run through 4 states,
+ * red - green - yellow 1 - yellow 2,  before looping back. It will continue until the power
+ * is disconnected. 
+ * 
+ */
 
 
 int red = 13;   // pin #s for LEDS, button, and active buzzer
